@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js add eslint --dev
+
+PATH: 
+  /project/home/cdxgh/.local/state/fnm_multishells/1234_1692872851618/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Unknown system error -117: Unknown system error -117, copyfile '/project/home/cdxgh/.cache/yarn/v6/npm-relateurl-0.2.7-54dbf377e51440aca90a4cd274600d3ff2d888a9-integrity/node_modules/relateurl/license' -> '/project/home/cdxgh/workspace/node_modules/relateurl/license'
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React example starter project",
+    "keywords": ["react", "starter"],
+    "main": "src/index.js",
+    "dependencies": {
+      "loader-utils": "3.2.1",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-scripts": "5.0.1"
+    },
+    "devDependencies": {
+      "@babel/runtime": "7.13.8",
+      "typescript": "4.1.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
